@@ -1,6 +1,3 @@
-# Practice 1
+# HomeWork 2
 
-Implement the below formula in the `myprog.asm` file :
-```
-(((input2 + 74) * 7) + (input1 - 46 ))* 3
-```
+See the home work pdf `Assemblyfall99Homework2.pdf`.
