@@ -7,7 +7,6 @@ pattern: db 01000011b ; 43
 input_sequence: resb 10000
 
 
-
 segment .text
 
 global asm_main:

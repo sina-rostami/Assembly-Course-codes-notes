@@ -1,8 +1,8 @@
-a.out: myprog.o driver.o asm_io.o
-	gcc -m32 driver.o asm_io.o myprog.o
+a.out: hw3.o driver.o asm_io.o
+	gcc -m32 driver.o asm_io.o hw3.o
 
-myprog.o: myprog.asm
-	nasm -f elf myprog.asm
+hw3.o: hw3.asm
+	nasm -f elf hw3.asm
 
 driver.o: driver.c
 	gcc -m32 -c driver.c

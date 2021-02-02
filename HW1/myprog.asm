@@ -4,7 +4,7 @@ segment .text
 
 global asm_main
 
-; implement the below formula : 
+; implement the below formula :
 ; (((input2 + 74) * 7) + (input1 - 46 ))* 3
 
 asm_main:
@@ -17,8 +17,8 @@ asm_main:
 	mov ebx, eax ; ebx is input1
 	call read_int
 	mov ecx, eax ; ecx is intput2
-	
-	sub ebx, 46 
+
+	sub ebx, 46
 	add ecx, 74
 
 	mov edx, ecx
